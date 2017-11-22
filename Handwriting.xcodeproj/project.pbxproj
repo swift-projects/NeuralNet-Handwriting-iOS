@@ -27,7 +27,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		F038598E1EB82F10001F33D1 /* neuralnet-mnist-trained */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "neuralnet-mnist-trained"; sourceTree = SOURCE_ROOT; };
+		F038598E1EB82F10001F33D1 /* neuralnet-mnist-trained */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "neuralnet-mnist-trained"; sourceTree = "<group>"; };
 		F03859911EB82F7F001F33D1 /* UIView+Constraints.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIView+Constraints.swift"; sourceTree = "<group>"; };
 		F03859931EB83A51001F33D1 /* MainView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainView.swift; sourceTree = "<group>"; };
 		F03859951EB83AA2001F33D1 /* ShadowView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ShadowView.swift; sourceTree = "<group>"; };
@@ -65,16 +65,18 @@
 				F038598E1EB82F10001F33D1 /* neuralnet-mnist-trained */,
 			);
 			name = MNIST;
+			path = MNIST;
 			sourceTree = "<group>";
 		};
 		F03859901EB82F46001F33D1 /* Extensions */ = {
 			isa = PBXGroup;
 			children = (
-				F03859911EB82F7F001F33D1 /* UIView+Constraints.swift */,
-				F03859AB1EB92D8C001F33D1 /* Float+String.swift */,
 				F03859991EB83C15001F33D1 /* Colors.swift */,
+				F03859AB1EB92D8C001F33D1 /* Float+String.swift */,
+				F03859911EB82F7F001F33D1 /* UIView+Constraints.swift */,
 			);
 			name = Extensions;
+			path = Extensions;
 			sourceTree = "<group>";
 		};
 		F038599C1EB849EF001F33D1 /* NeuralNet */ = {
@@ -89,6 +91,7 @@
 				F03859A31EB84A28001F33D1 /* Structure.swift */,
 			);
 			name = NeuralNet;
+			path = NeuralNet;
 			sourceTree = "<group>";
 		};
 		F08248361EB82EC200EC951B = {
@@ -110,16 +113,16 @@
 		F08248411EB82EC200EC951B /* Handwriting */ = {
 			isa = PBXGroup;
 			children = (
-				F08248421EB82EC200EC951B /* AppDelegate.swift */,
-				F08248441EB82EC200EC951B /* MainViewController.swift */,
-				F03859931EB83A51001F33D1 /* MainView.swift */,
-				F03859951EB83AA2001F33D1 /* ShadowView.swift */,
 				F03859901EB82F46001F33D1 /* Extensions */,
-				F038599C1EB849EF001F33D1 /* NeuralNet */,
 				F038598D1EB82F00001F33D1 /* MNIST */,
+				F038599C1EB849EF001F33D1 /* NeuralNet */,
+				F08248421EB82EC200EC951B /* AppDelegate.swift */,
 				F08248491EB82EC300EC951B /* Assets.xcassets */,
-				F082484B1EB82EC300EC951B /* LaunchScreen.storyboard */,
 				F082484E1EB82EC300EC951B /* Info.plist */,
+				F082484B1EB82EC300EC951B /* LaunchScreen.storyboard */,
+				F03859931EB83A51001F33D1 /* MainView.swift */,
+				F08248441EB82EC200EC951B /* MainViewController.swift */,
+				F03859951EB83AA2001F33D1 /* ShadowView.swift */,
 			);
 			path = Handwriting;
 			sourceTree = "<group>";
@@ -223,6 +226,7 @@
 				F082484C1EB82EC300EC951B /* Base */,
 			);
 			name = LaunchScreen.storyboard;
+			path = .;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
