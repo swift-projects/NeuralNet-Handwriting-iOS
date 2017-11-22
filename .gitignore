@@ -30,3 +30,6 @@ xcuserdata/
 # Swift Package Manager
 Packages/
 .build/
+
+## AppCode
+.idea/
